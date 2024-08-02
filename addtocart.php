@@ -54,7 +54,7 @@ ob_end_flush();
         </div>
     <?php endif; ?>
 
-        <h1>hello world</h1>
+        
         
     <script src="./scripts/addtocart.js"></script>
     <script src="footer.js"></script> 
