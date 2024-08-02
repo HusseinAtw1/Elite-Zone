@@ -1,0 +1,16 @@
+.card {
+    height: 100%;
+}
+.account-details {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+.account-details h2 {
+    margin-bottom: 15px;
+}
+.account-details p {
+    margin: 5px 0;
+}

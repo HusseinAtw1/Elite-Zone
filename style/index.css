@@ -1,0 +1,71 @@
+    .brand-slider-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .brand-slider {
+        margin: 0 -10px;
+    }
+
+    .brand-slide {
+        padding: 10px;
+    }
+
+    .brand-logo-container {
+        background-color: #f8f8f8;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        transition: all 0.3s ease;
+    }
+
+    .brand-logo-container:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transform: translateY(-2px);
+    }
+
+    .brand-logo {
+        max-width: 80%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+
+    /* Slick slider custom styles */
+    .slick-prev, .slick-next {
+        z-index: 1;
+    }
+
+    .slick-prev {
+        left: -25px;
+    }
+
+    .slick-next {
+        right: -25px;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        color: #333;
+    }
+
+    .slick-dots {
+        bottom: -30px;
+    }
+
+    .slick-dots li button:before {
+        font-size: 12px;
+        color: #333;
+    }
+
+    @media (max-width: 768px) {
+        .brand-logo-container {
+            height: 120px;
+        }
+    }
+
+
+    

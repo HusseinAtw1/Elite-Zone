@@ -1,0 +1,24 @@
+.chat-content {
+    height: 400px;
+    overflow-y: auto;
+}
+.chat-message {
+    margin-bottom: 15px;
+}
+.user-message {
+    text-align: right;
+}
+.admin-message {
+    text-align: left;
+}
+.message-content {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bg-primary {
+    background-color: #007bff !important;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
